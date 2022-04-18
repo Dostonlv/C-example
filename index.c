@@ -2,12 +2,23 @@
 #include <cs50.h>
 #include <stdlib.h> 
 
-void hello(int n){
-    for(int i=0; i<n; i++){
-        printf("Hi bro!\n");
-    }
-    
-}
+// void about(int n){
+//     for(int i=0; i<n; i++){
+
+//         string username = get_string("Your name: ");
+// int age = get_int("Your age: ");
+// char isMarried = get_char("Are you married? (Y/N): ");
+// if(isMarried == 'y' | isMarried == 'Y'){
+//     printf("Your name is %s\n", username);
+//     printf("Your age is %i\n", age);
+//     printf("You are married: True\n");
+// }else if(isMarried == 'N' | isMarried == 'n'){
+//     printf("Your name is %s\n", username);
+//     printf("Your age is %i\n", age);
+//     printf("You are married: False\n");
+// }
+//     }
+// }
 
 
 int main(void){
@@ -125,7 +136,7 @@ int main(void){
 // sikl for + function
 
 
-hello(5);
+about(2);
 
 
 
